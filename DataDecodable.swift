@@ -2,4 +2,5 @@
 
 struct DataDecodable<T: Decodable>: Decodable {
     var data: T
+    var jessTest: T
 }
